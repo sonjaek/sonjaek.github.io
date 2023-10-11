@@ -177,6 +177,22 @@ img {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .welcome-section {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 5rem;
+  }
+
+  .welcome-section > * {
+    margin: 1rem;
+  }
+
+  .introduction {
+    font-size: 2rem;
+  }
+}
+
 /* Posts section */
 
 .posts-section {
