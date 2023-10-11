@@ -145,6 +145,7 @@ img {
 }
 
 .nav-list a:hover {
+  color: var(--main-red);
   background: var(--main-blue);
 }
 
