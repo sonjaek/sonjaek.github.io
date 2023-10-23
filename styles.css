@@ -113,7 +113,7 @@ img {
 
 .nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
@@ -121,6 +121,13 @@ img {
   background: var(--main-red);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
+}
+
+#lang-switch {
+  height: 3rem;
+  margin: auto;
+  margin-right: 0;
+  margin-left: 2rem;
 }
 
 .nav-list {

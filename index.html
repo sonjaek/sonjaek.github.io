@@ -27,15 +27,29 @@
 <!-- START NAVIGATION BAR -->
 
 <nav id="navbar" class="nav">
+  <select id="lang-switch">
+    <option value="en">English</option>
+    <option value="fi">Suomi</option>
+  </select>
+
   <ul class="nav-list">
     <li>
-      <a href="#welcome-section">About</a>
+      <a href="#welcome-section">
+        <span language="en">About</span>
+        <span language="fi">Esittely</span>
+      </a>
     </li>
     <li>
-      <a href="#posts">Posts</a>
+      <a href="#posts">
+        <span language="en">Posts</span>
+        <span language="fi">Kirjoitukset</span>
+      </a>
     </li>
     <li>
-      <a href="#contact">Contact</a>
+      <a href="#contact">
+        <span language="en">Contact</span>
+        <span language="fi">Yhteystiedot</span>
+      </a>
     </li>
   </ul>
 </nav>
@@ -48,8 +62,9 @@
   <img src="resources/portrait.jpeg" alt="A woman with long brown hair and a black dress smiling" height="450">
   <div class="introduction">
     <h1 id="name">Sonja Ek</h1>
-    <p>Nordic Philologist<br />& IT Professional</p>
-      </div>
+    <p language="en">Nordic Philologist<br />& IT Professional</p>
+    <p language="fi">Pohjoismaisen kielitieteen<br /> ja ohjelmistoteknologian asiantuntija</p>
+  </div>
 </section>
 
 <!-- END WELCOME SECTION -->
@@ -103,5 +118,8 @@
 </footer>
 
 <!-- END FOOTER SECTION -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./languageSwitcher.js"></script>
 </body>
 </html>
